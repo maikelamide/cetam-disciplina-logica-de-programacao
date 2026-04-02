@@ -1,0 +1,28 @@
+Enunciado: Crie um algoritmo que receba o valor de um salário e calcule o novo valor 
+com aumento de 20%. 
+ 
+Entrada: salario, bonificacao de 20%
+Processamento: calcular o salario * bonificacao de 20%
+Saída: exibir o resultado do salario
+
+passo 1: inicio;
+passo 2: informar o salario;
+passo 3: Atribuir o valor da bonificacao para 20%;
+passo 4: calcular o salario * bonificacao;
+passo 5: exibir o resultado do salario;
+passo 6: fim;
+
+Algoritmo "Salario de Bonificação"
+
+Var
+salario, novoSalario: Real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+novoSalario <- (20/100)
+escreval("Digite o valor do seu sálario: ")
+leia(salario)
+novoSalario <- salario + (salario * novoSalario)
+escreval("O novo valor do salário com aumento de 20% é: ", novoSalario)
+
+Fimalgoritmo

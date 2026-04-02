@@ -1,0 +1,34 @@
+Enunciado: Crie um algoritmo que receba o nome de um aluno e duas notas, exibindo o 
+nome e a média final.
+
+Entrada: NomeDoAluno, ARE1, ARE2;
+Procesasamento: Calcular media ARE1+ARE2/2;
+Saida: Informar nome do Aluno e sua média;
+
+passo 1: Inicio;
+passo 2: informar o nome do aluno;
+passo 3: informar nota para compor ARE1;
+passo 4: informar nota para compor ARE2;
+passo 5: calcular media do aluno ARE1 + ARE2 / 2;
+passo 6: exibir nome do aluno;
+passo 7: exibir média do aluno:
+passo 8: fim
+
+
+Algoritmo "media aluno"
+
+Var
+nome: caracter
+media,are1, are2: real
+
+Inicio
+escreval("Informe o nome do aluno: ")
+leia(nome)
+escreval("Informe a nota para compor ARE1: ")
+leia(are1)
+escreval("Informe a nota para compor ARE2: ")
+leia(are2)
+media <- (are1+are2)/2
+
+escreval("O Aluno: ",nome," obteve a média na máteria de: ", media)
+Fimalgoritmo
