@@ -1,0 +1,80 @@
+Disciplina: Lógica de Programação e Algoritmos
+Curso Técnico em Inteligência Artificial
+Data: 01/04/2026
+Aluno(a): Jackson Martins
+
+===========================================================
+Exercício Avaliativo Complementar da Parcial 01 – Algoritmo
+===========================================================
+
+Questão 1: Aumento de salário
+
+Enunciado: Crie um algoritmo que receba o valor de um salário
+e calcule o novo valor com aumento de 20%.
+
+a. Identificar:
+   Entrada: valor do salário atual
+   Processamento: multiplicar o salário por 1,20
+   Saída: novo valor do salário com aumento de 20%
+
+b. Passo a passo:
+  1. Início
+	2. Receber o valor do salário
+	3. Calcular: novo_salario = salario * 1,20
+	4. Exibir o novo_salario
+  5. Fim
+
+c. Fluxograma: (print anexado na pasta)
+
+===========================================================
+Questão 2: Média do aluno
+
+Enunciado: Crie um algoritmo que receba o nome de um aluno
+e duas notas, exibindo o nome e a média final.
+
+a. Identificar:
+   Entrada: nome do aluno, nota1 e nota2
+   Processamento: calcular a média somando as duas notas e dividindo por 2
+   Saída: nome do aluno e média final
+
+b. Passo a passo:
+   1. Início
+	2. Receber o nome do aluno
+	3. Receber a nota1
+	4. Receber a nota2
+	5. Calcular: media = (nota1 + nota2) / 2
+	6. Exibir o nome e a media
+   7. Fim
+
+c. Fluxograma: (print anexado na pasta)
+
+===========================================================
+Questão 3: Implementar no Visualg
+Algoritmo escolhido: Questão 2 - Média do aluno
+
+Algoritmo "MediaAluno"
+// Disciplina  : Algoritmos e Lógica de Programação
+// Professor   : Maike Lamide 
+// Descrição   : Questão 3: Implementar no VisualG
+//             - Algoritmo escolhido: Questão 2 - Média do aluno
+// Autor(a)    : Jackson Martins
+// Data atual  : 02/04/2026
+Var
+// Seção de Declarações das variáveis 
+   nome: caractere
+   nota1, nota2, media: real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   escreva("Digite o nome do aluno:")
+   leia(nome)
+   escreva("Digite a nota 1:")
+   leia(nota1)
+   escreva("Digete a nota 2:")
+   leia(nota2)
+   
+   media <- (nota1 + nota2) / 2
+   escreval("Aluno:", nome)
+   escreval("Média final:", media)
+
+Fimalgoritmo
