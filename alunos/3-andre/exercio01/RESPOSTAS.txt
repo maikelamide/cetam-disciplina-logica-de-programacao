@@ -1,0 +1,54 @@
+Disciplina: Lógica de Programação e Algoritmos
+Curso Técnico em Inteligência Artificial / Data: 03/04/2026 Aluno (a): ANDRE MARCOS SOMBRA ROLIM
+Exercício Avaliativo Complementar da Parcial 01 – Algoritmo
+
+Questão 1: Aumento de salário
+Enunciado: Crie um algoritmo que receba o valor de um salário e calcule o novo valor com aumento de 20%.
+
+Identificar:
+ 
+ Entrada: salario
+ Processamento: multiplicar o salario por 1,20
+ Saída: exibir novo salario
+
+
+b. Descrever o passo a passo:
+
+   inicio
+	PASSO 1 ler o salario
+        PASSO 2 multiplicar o salario por 1,20
+        PASSO 3 exibir novo salario
+   fim
+
+c. Desenhar o fluxograma no draw.io (https://www.drawio.com/): tire um print do fluxo para anexar na pasta.
+R: está anexado na pasta
+
+Questão 2: Média do aluno
+Enunciado: Crie um algoritmo que receba o nome de um aluno e duas notas, exibindo o nome e a média final.
+
+Identificar:
+
+ Entrada: nome do aluno, nota 1, nota 2
+ Processamento: calcular a media somando as duas notas e dividindo por 2
+ Saída: exibir o nome, e media final
+
+b. Descrever o passo a passo:
+
+inicio
+	PASSO 1 ler nome do aluno
+	PASSO 2 ler nota 1
+	PASSO 3 ler nota 2
+	PASSO 4 calcular a media (nota 1 + nota 2)/2
+	PASSO 5 exibir nome e media final
+
+fim
+
+c. Desenhar o fluxograma no draw.io (https://www.drawio.com/): tire um print do fluxo para anexar na pasta.
+R: está anexado na pasta
+
+Questão 3: Implementar no Visualg
+
+Escolha um algoritmo das questões anteriores para desenvolver, você pode copiar o código e colar aqui embaixo.
+Orientações:
+
+ALGORITMO, QUESTÃO 1:A
