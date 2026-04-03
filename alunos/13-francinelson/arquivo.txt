@@ -1,0 +1,55 @@
+Exercício Avaliativo Complementar da Parcial 01 – Algoritmo
+
+Questão 1: Aumento de salário
+Enunciado: Crie um algoritmo que receba o valor de um salário e calcule o novo valor com aumento de 20%.
+
+a. Identificar:
+ Entrada: salario
+ Processamento: somar o valor do salario + 20%
+ Saída: valor sdo salario com aumento
+
+b. Descrever o passo a passo:
+Passo 1: inicio
+Passo 2: receba o valor do salario atual
+Passo 3: calcule o valor do salario + 20%
+Passo 4: exibir o novo salario
+Passo 5: fim
+
+c. Desenhar o fluxograma no draw.io (https://www.drawio.com/): tire um print do fluxo para anexar na pasta.
+
+____________________________________________________________________________
+Questão 2: Média do aluno
+Enunciado: Crie um algoritmo que receba o nome de um aluno e duas notas, exibindo o nome e a média final.
+
+a. Identificar:
+ Entrada:nome do aluno, nota 1, nota 2
+ Processamento: somar nota 1 + nota 2 e /2
+ Saída: nome do aluno e valor da media final
+
+b. Descrever o passo a passo
+Passo 1: inicio
+Passo 2: escreva nome do aluno
+Passo 3: leia nota 1
+Passo 4: leia nota 2
+Passo 5: calcule nota 1 + nota 2 e /2
+Passo 6: escreva nome do aluno e media final
+Passo 7: fim
+
+c. Desenhar o fluxograma no draw.io (https://www.drawio.com/): tire um print do fluxo para anexar na pasta.
+____________________________________________________________________________
+Questão 3: Implementar no Visualg
+Escolha um algoritmo das questões anteriores para desenvolver, você pode copiar o código e colar aqui embaixo.
+
+algoritmo "Aumento Salarial"
+
+var 
+salario, novoSalario: REAL
+
+inicio
+escreval:("Digite o salário atual")
+leia(salario)
+
+novoSalario <- salario * 1.20
+escreval("O novo salário é: ", novoSalario)
+
+Fimalgoritmo 
