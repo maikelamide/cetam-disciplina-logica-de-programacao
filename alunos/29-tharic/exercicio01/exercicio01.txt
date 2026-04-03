@@ -1,0 +1,83 @@
+Disciplina: Lógica de Programação e Algoritmos
+
+Curso Técnico em Inteligência Artificial
+
+Data: 01/04/2026
+
+Aluno: Tharic Gustavo Da Rocha Araújo
+
+Exercício Avaliativo Complementar da Parcial 01 - Algoritmo
+
+Questão 1: Aumento de salário
+
+Enunciado: Crie um algoritmo que receba o valor de um salário e calcule o novo valor com aumento de 20%.
+
+a. Identificar:
+
+Entrada: salario
+
+Processamento: Calcular o aumento multiplicando o salário por 0.20 e somar ao valor original
+
+Saída: exibir o o novo salario
+
+b. Descrever o passo a passo:
+
+1-Início.
+2-Ler o valor do salário atual.
+3-Calcular o novo salário: novo_salario = salario * 0.20.
+4-Mostrar o resultado do novo_salario.
+5-Fim.
+
+c. Desenhar o fluxograma no draw.io (https://www.drawio.com/): tire um print do fluxo para anexar na pasta.
+
+Questão 2: Média do aluno
+
+Enunciado: Crie um algoritmo que receba o nome de um aluno e duas notas, exibindo o nome e a média final.
+
+a. Identificar.
+
+Entrada: Nome do aluno, Nota 1 e Nota 2.
+
+Processamento:Somar as duas notas e dividir por 2 ( media = (nota1 + nota2) / 2 ).
+
+Saida:Nome do aluno e a média final calculada.
+
+b. Descrever o passo a passo
+
+Início.
+1-Ler o nome do aluno.
+2-Ler a nota 1 e a nota 2.
+3-Calcular a média: media = (nota1 + nota2) / 2.
+4-Exibir o nome do aluno e o valor da média.
+5-Fim.
+
+c. Desenhar o fluxograma no draw.io (https://www.drawio.com/): tire um print do fluxo para anexar na pasta.
+
+Questão 3: Implementar no Visualq
+
+Escolha um algoritmo das questões anteriores para desenvolver, você pode copiar o código e colar aqui embaixo.
+
+Algoritmo "Aumento_Salario"
+Var
+   salario, novo_salario: real
+
+Inicio
+   Escreva("Digite o valor do salário atual: ")
+   Leia(salario)
+   
+   novo_salario <- salario * 1.20
+   
+   Escreval("O novo salário com aumento de 20% é: R$", novo_salario)
+
+Fimalgoritmo
+
+
+Orientações:
+
+Crie uma pasta com o nome exercicio01 na sua pasta;
+
+Copie o conteúdo desse arquivo.
+
+Criar um arquivo txt com o nome exercicio01 e cole aqui o conteúdo copiado anterior.
+
+- Responda as questões e anexe arquivos quando necessário.
