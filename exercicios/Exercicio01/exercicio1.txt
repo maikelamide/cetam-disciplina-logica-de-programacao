@@ -1,0 +1,46 @@
+Questão 1
+Identificar: O novo Salário
+Entrada: Salário, novo valor
+Processamento: soma do salário com novo valor
+Saida: novo salário
+
+Passo 1: informar valor do salário atual
+Passo 2: informar aumento com 20%
+Passo 3: multiplicação do valor do salário atual com 20%
+Passo 3: Resultado Valor do Aumento
+Passo 4: soma do Salário Atual com o valor do aumento
+Passo 5: Resultado novo valor do salário
+
+Questão 2
+Identificar: Média do Aluno 
+Entrada: Nome do aluno, Nota 1, Nota 2
+Processamento: calcular média (nota 1 + nota 2 / 2)
+Saída: resultado nome do aluno e media do aluno
+ 
+Passo 1: Informar Nome do Aluno
+Passo 2: Informar Nota 1, Nota 2
+Passo 3: Calcular a média (nota1 + nota 2 / 2)
+Passo 4: Informar Nome do Aluno, Média do Aluno
+
+Questão 3
+Algoritmo "MÉDIA DO ALUNO"
+
+Var
+nome: caracter
+Nota1: inteiro
+nota2: inteiro
+media: real
+
+
+Inicio
+escreval("digite o nome do aluno")
+leia(nome)
+escreva("Nota1")
+leia(nota1)
+escreva("Nota2")
+leia(nota2)
+media <- (nota1 + nota2 / 2)
+escreva("A média é:", media)
+
+
+Fimalgoritmo
