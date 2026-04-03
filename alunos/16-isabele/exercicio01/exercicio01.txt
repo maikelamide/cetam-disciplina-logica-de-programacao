@@ -1,0 +1,40 @@
+Questão 1: Aumento de salário
+
+Crie um algoritmo que receba o valor de um salário e calcule o novo valor com aumento de 20%.
+
+a. Identificar:
+
+ENTRADA: valor do salário
+PROCESSAMENTO: calcular 20% do salário, somar esse valor ao salário original
+SAÍDA: novo salário com aumento
+
+b. Descrever o passo a passo:
+
+1.Início
+2.Ler o valor do salário
+3.Calcular o aumento: salário * 0,20
+4.Calcular o novo salário: salário + aumento
+5.Mostrar o novo salário
+6.Fim
+
+
+Questão 2: Média do aluno
+
+Crie um algoritmo que receba o nome de um aluno e duas notas, exibindo o nome e a média final.
+
+a. Identificar:
+
+ENTRADA: nome do aluno,nota1,nota2
+PROCESSAMENTO: calcular a média: média = (nota1+nota2)/2
+SAÍDA: nome do aluno, média final
+
+b. Descrever o passo a passo
+
+1.Início
+2.Ler o nome do aluno
+3.Ler a nota1
+4.Ler a nota2
+5.Calcular a média
+6.Mostrar o nome do aluno
+7.Mostrar a média final
+8.Fim
