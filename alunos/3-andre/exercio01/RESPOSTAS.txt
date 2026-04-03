@@ -52,3 +52,18 @@ Escolha um algoritmo das questões anteriores para desenvolver, você pode copia
 Orientações:
 
 ALGORITMO, QUESTÃO 1:A
+
+Algoritmo "AumentoSalario"
+
+Var
+salario: real
+novo_salario: real
+
+
+Inicio
+escreval ("Escreva o valor do seu salário aqui:")
+leia (salario)
+novo_salario <- (salario*1.20)
+escreva ("Seu novo salário com 20% de aumento: R$",novo_salario)
+
+Fimalgoritmo
