@@ -1,0 +1,67 @@
+Disciplina: Lógica de Programação e Algoritmos 
+Curso Técnico em Inteligência Artificial                                                                  
+Data: 01/04/2026 
+Aluno (a): Deivison Souza Batista
+ 
+Exercício Avaliativo Complementar da Parcial 01 – Algoritmo 
+
+Questão 1: Aumento de salário 
+Enunciado: Crie um algoritmo que receba o valor de um salário e calcule o novo valor 
+com aumento de 20%.
+ 
+a. Identificar: 
+
+ Entrada: valor do salario
+ Processamento: calcular 20% do salario
+ Saída: valor com aumento de 20%
+
+b. Descrever o passo a passo: 
+Passo 1:inicio
+Passo 2:Receber o valor do salário
+Passo 3:calcular com 20% de aumento
+Passo 4:exiba novo salario
+
+c. Desenhar o fluxograma no draw.io (https://www.drawio.com/): tire um print do fluxo para 
+anexar na pasta. 
+____________________________________________________________________________ 
+Questão 2: Média do aluno 
+Enunciado: Crie um algoritmo que receba o nome de um aluno e duas notas, exibindo o 
+nome e a média final. 
+
+a. Identificar: 
+ Entrada: aluno, nota1, nota2
+ Processamento: calcular media nota1+nota2
+ Saída: aluno e media final
+
+b. Descrever o passo a passo 
+Passo 1:inicio
+Passo 2:Receber o nome do aluno
+Passo 3:receber nota1 e nota2
+Passo 4:calcular a media de (nota1+nota2)/2
+Passo 5:exiba nome aluno e media final
+Passo 6: Fim
+
+
+c. Desenhar o fluxograma no draw.io (https://www.drawio.com/): tire um print do fluxo para 
+anexar na pasta. 
+____________________________________________________________________________ 
+Questão 3: Implementar no Visualg 
+Escolha um algoritmo das questões anteriores para desenvolver, você pode copiar o 
+código e colar aqui embaixo.
+
+
+Algoritmo "salario com aumento de 20%"
+Var
+    salario: real
+    aumento: real
+    novo_salario: real
+Inicio
+      escreva("Digite o salário: ")
+      leia (salario)
+      aumento <- salario * 0.20
+      novo_salario <- salario + aumento
+      escreva("Novo salário com aumento: ", novo_salario)
+
+Fimalgoritmo
+
+
