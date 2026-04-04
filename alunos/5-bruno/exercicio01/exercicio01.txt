@@ -1,0 +1,62 @@
+Questão 01
+a.Identificar
+
+entrada: salário
+processamento: calcaular 20% do salário e somar o aumento do salário
+saída: aumento do salário
+
+b. Passo a Passo
+
+passo 1: início
+passo 2: informe seu salário
+passo 3: calcular 20% do salário
+passo 4: Somar o aumento + salário
+passo 5: mostrar o novo salário
+passo 6: fim
+
+
+c. imagem
+
+
+Questão 02
+
+a. Identificar
+entrada:Nome do aluno, nota01, nota02
+
+processamento: calcular a média (nota01+nota02)/2
+
+saída:Nome do aluno, Média final
+
+b. Passo a passo
+
+Passo 1: início
+Passo 2: ler o nome do aluno
+Passo 3: ler a primeira nota
+passo 4: ler a segunda nota
+passo 5: calcaulara média
+passo 6: exibir o nome do aluno
+passo 7: exibir a média 
+passo 8: fim
+
+
+c. imagem
+
+Questão 03
+
+
+Algoritmo "salário"
+
+Var  salario, aumento,novo_salario: real
+
+Inicio
+   escreva("Digite seu salário: ")
+   leia(salario)
+   
+   aumento <- salario*0.20
+   novo_salario <- salario + aumento
+   
+   escreva("Novo salário: ", novo_salario)
+
+Fim
+
+
