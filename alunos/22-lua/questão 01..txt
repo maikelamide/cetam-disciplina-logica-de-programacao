@@ -1,0 +1,10 @@
+Algoritmo: Aumento de Salario.
+
+Entrada: Declare o salário como real.
+Processamento: Salario * 1,20
+Saida: Novo Salario com 20% de aumento 
+
+01. Receba o valor do salário atual.
+02. Multiplique o salário por 1,20 para calcular o aumento de 20%.
+03. Mostre o novo salário na tela.
+

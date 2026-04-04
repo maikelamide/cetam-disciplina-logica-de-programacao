@@ -1,0 +1,10 @@
+Algoritmo: Média do Aluno
+
+Entrada: Nome do aluno, Nota 1 e Nota 2.
+Processamento: Calcular a média final = (Nota 1 + Nota 2) / 2.
+Saída: Nome do aluno e a média final.
+
+Passos:
+01 Receba o nome do aluno, a primeira nota e a segunda nota.
+02 Some as duas notas e divida o resultado por 2 para calcular a média.
+03 Mostre o nome do aluno junto com a média final.
