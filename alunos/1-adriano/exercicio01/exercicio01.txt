@@ -1,0 +1,68 @@
+Questão 1: Aumento de salário 
+Enunciado: Crie um algoritmo que receba o valor de um salário e calcule o novo valor 
+com aumento de 20%. 
+
+a. Identificar: 
+100% + 20% = 120%
+120% / 100 = 1.20
+
+Entrada: salario atual
+Processamento: salario atual multiplicado por 1.20
+Saída: novo salario
+
+b. Descrever o passo a passo: 
+PASSO1: inicio
+    PASSO2: ler valor do salario atual
+    PASSO3: calcular salario atual multiplicado por 1.20
+    PASSO4: exibir resultado do novo salario
+PASSO5: fim
+
+c. Desenhar o fluxograma no draw.io (https://www.drawio.com/): tire um print do fluxo para 
+anexar na pasta. 
+R: print_exercicio_1.png
+
+Questão 2: Média do aluno 
+Enunciado: Crie um algoritmo que receba o nome de um aluno e duas notas, exibindo o 
+nome e a média final.
+
+a. Identificar: 
+Entrada: nome; N1; n2
+Processamento: media = (N1+N2) / 2
+Saída: nome e media final
+
+b. Descrever o passo a passo 
+PASSO1: inicio
+    PASSO2: ler nome
+    PASSO3: ler nota 1
+    PASSO4: ler nota 2
+    PASSO5: calcular media somando (N1 + N2) dividindo por 2
+    PASSO6: exibir nome do aluno e média final
+PASSO7: fim
+
+c. Desenhar o fluxograma no draw.io (https://www.drawio.com/): tire um print do fluxo para 
+anexar na pasta. 
+R: print_exercicio_2.png
+
+Questão 3: Implementar no Visualg 
+Escolha um algoritmo das questões anteriores para desenvolver, você pode copiar o 
+código e colar aqui embaixo.
+
+Algoritmo "questão3"
+//
+Var
+//
+Nome: caractere
+NotaA, NotaB, media: real
+//
+Inicio
+//
+escreva ("Digite o Nome do Aluno:")
+leia (Nome)
+escreval ("Digite a Nota A")
+leia (NotaA)
+escreval ("Digite a Nota B")
+leia (NotaB)
+media <-(NotaA + NotaB)/2
+escreval ("Média do Aluno é:", media)
+//
+Fimalgoritmo
