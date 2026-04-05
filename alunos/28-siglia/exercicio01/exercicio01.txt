@@ -1,0 +1,30 @@
+Questão 1   Aumento de salário
+Entrada:valor e aumento 20%
+Processamento:calcular o valor do salário com o aumento 20%.
+Saída: novo salário com aumento.
+
+Início
+Passo2:Repassar o valor do salário sendo 1000,00.
+Passo3: multiplicar o valor salário 1000,00 por 20% .   
+salário 1000,00, sendo 20% (1000x0,20)=200,00.
+4. fim
+
+c.Fluxograma
+
+
+
+
+Questão2 Média do aluno
+
+Entrada:Nome aluno, nota1 e nota2
+Processamento: Amédia é calculada pela soma das duas notas divididas por 2.
+Saída: Exibir o nome e a média final.
+
+Passo1: Início
+2.ler nome do aluno
+3.ler a nota 1
+4.ler a nota 2.
+5.Calcular a média.
+6.Mostrar o nome do aluno.
+7. mostrar média final
+8.fim
