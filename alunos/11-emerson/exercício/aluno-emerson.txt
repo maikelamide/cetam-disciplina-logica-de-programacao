@@ -1,0 +1,48 @@
+questão 1
+
+entrada: salario valor,aumento 20%
+processamento: valor do salario + 20%
+saída: mostrar salario atual
+
+passo1:inicio
+passo2: ler o valor do salario
+passo3: ler o 20% do salario
+passo4: calcular(valor do salario + 20%)
+passo5: exibir o valor do salario atual
+
+------------------------------
+questão 2
+
+entrada: aluno a, nota1,nota2
+processamento: somar nota1 + nota2 e dividir por 2
+saída: mostrar nome do Aluno e media final
+
+passo1: inicio
+passo2: ler nota1
+passo3: ler nota2
+passo4: calculo (somar nota1 + nota2 e dividir por 2)
+passo5: dar a media final do aluno
+
+
+Questão 3
+Algoritmo "MÉDIA DO ALUNO"
+
+Var
+nome: caracter
+Nota1: inteiro
+nota2: inteiro
+media: real
+
+
+Inicio
+escreval("emerson")
+leia(emerson)
+escreva("8,00")
+leia(8,00)
+escreva("9,00")
+leia(9,00)
+media <- (nota1 + nota2 / 2)
+escreva("A média é:", media)
+
+
+Fimalgoritmo
