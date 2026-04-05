@@ -1,0 +1,88 @@
+
+                        Exercício Avaliativo Complementar da Parcial 01 – Algoritmo
+
+Questão 1: Aumento de salário 
+Enunciado: Crie um algoritmo que receba o valor de um salário e calcule o novo valor 
+com aumento de 20%. 
+a. Identificar: 
+ Entrada: 
+ Processamento: 
+ Saída: 
+b. Descrever o passo a passo: 
+c. Desenhar o fluxograma no draw.io (https://www.drawio.com/): tire um print do fluxo para 
+anexar na pasta.
+ 
+Resposta; 
+ 
+Entrada: salario, bonificacao de 20%
+Processamento: calcular o salario * bonificacao de 20%
+Saída: exibir o resultado do salario
+
+passo 1: inicio;
+passo 2: informar o salario;
+passo 3: Atribuir o valor da bonificacao para 20%;
+passo 4: calcular o salario * bonificacao;
+passo 5: exibir o resultado do salario;
+passo 6: fim;
+
+Algoritmo "Salario de Bonificação"
+
+Var
+salario, novoSalario: Real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+novoSalario <- (20/100)
+escreval("Digite o valor do seu sálario: ")
+leia(salario)
+novoSalario <- salario + (salario * novoSalario)
+escreval("O novo valor do salário com aumento de 20% é: ", novoSalario)
+
+Fimalgoritmo
+
+
+
+Questão 2: Média do aluno 
+Enunciado: Crie um algoritmo que receba o nome de um aluno e duas notas, exibindo o 
+nome e a média final. 
+a. Identificar: 
+ Entrada: 
+ Processamento: 
+ Saída: 
+b. Descrever o passo a passo 
+c. Desenhar o fluxograma no draw.io (https://www.drawio.com/): tire um print do fluxo para 
+anexar na pasta.
+
+Resposta
+
+Entrada: NomeDoAluno, ARE1, ARE2;
+Procesasamento: Calcular media ARE1+ARE2/2;
+Saida: Informar nome do Aluno e sua média;
+
+passo 1: Inicio;
+passo 2: informar o nome do aluno;
+passo 3: informar nota para compor ARE1;
+passo 4: informar nota para compor ARE2;
+passo 5: calcular media do aluno ARE1 + ARE2 / 2;
+passo 6: exibir nome do aluno;
+passo 7: exibir média do aluno:
+passo 8: fim
+
+
+Algoritmo "media aluno"
+
+Var
+nome: caracter
+media,are1, are2: real
+
+Inicio
+escreval("Informe o nome do aluno: ")
+leia(nome)
+escreval("Informe a nota para compor ARE1: ")
+leia(are1)
+escreval("Informe a nota para compor ARE2: ")
+leia(are2)
+media <- (are1+are2)/2
+
+escreval("O Aluno: ",nome," obteve a média na máteria de: ", media)
+Fimalgoritmo
