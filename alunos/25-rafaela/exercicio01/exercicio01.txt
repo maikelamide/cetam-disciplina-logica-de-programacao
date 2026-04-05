@@ -1,0 +1,82 @@
+Disciplina: Lógica de Programação e Algoritmos Curso Técnico em Inteligência Artificial
+Data: 01/04/2026
+Aluna: Rafaela Cristina Ferreira Batista
+
+Exercício Avaliativo Complementar da Parcial 01 – Algoritmo
+
+Questão 1: Aumento de salário
+Enunciado: Crie um algoritmo que receba o valor de um salário e calcule o novo valor com aumento de 20%.
+a.	Identificar:
+•	Entrada: salário, porcentagem
+•	Processamento: multiplicar o valor do salário com os 20% e depois somar a diferença resultada da multiplicação com o salário 
+•	Saída: novo valor do salário com o aumento de 20%
+
+b.	Descrever o passo a passo:
+c.	P1: obter o valor do salário
+d.	P2: multiplicar o valor do salário com 20% e com o resultado da multiplicação somar com o salário informado 
+e.	P3: apresentar o valor atualizado do salário com os aumento de 20%
+
+f.	Desenhar o fluxograma no draw.io (https://www.drawio.com/): tire um print do fluxo para anexar na pasta.
+ 
+
+Questão 2: Média do aluno
+Enunciado: Crie um algoritmo que receba o nome de um aluno e duas notas, exibindo o nome e a média final.
+a.	Identificar:
+•	Entrada: nome, nota1, nota2
+•	Processamento: somar e dividir as duas notas do aluno pela sua quantidade (2)
+•	Saída: nome e média final do aluno
+
+b.	Descrever o passo a passo
+P1: obter o nome do aluno
+P2: receber a primeira nota
+P3: receber a segunda nota
+P4: realizar a soma e divisão das notas (nota1+nota2) / 2
+P5: exibir resultado da média do aluno
+
+c.	Desenhar o fluxograma no draw.io (https://www.drawio.com/): tire um print do fluxo para anexar na pasta.
+ 
+
+Questão 3: Implementar no Visualg
+Escolha um algoritmo das questões anteriores para desenvolver, você pode copiar o código e colar aqui embaixo.
+
+
+Algoritmo "Salário com aumento de 20%"
+
+Var
+salario: real
+p: real
+
+Inicio
+Escreva("Informe o valor do salário: R$")
+Leia(salario)
+p <- (salario*0.20)+salario
+Escreval("Atualização do salário com o aumento de 20%: R$", p)
+
+Fimalgoritmo
+
+Algoritmo "Média do Aluno"
+
+Var
+ nome: caractere
+ n1: real
+ n2: real
+ media: real
+
+Inicio
+Escreva("Informe o nome do aluno:")
+Leia(nome)
+Escreva("Informe a primeira nota:")
+Leia(n1)
+Escreva("Informe a segunda nota:")
+Leia(n2)
+media <- (n1+n2)/2
+Escreval("Nome:", nome, " Média final:", media)
+
+Fimalgoritmo
+
+
+Orientações:
+-	Crie uma pasta com o nome exercicio01 na sua pasta;
+-	Copie o conteúdo desse arquivo.
+-	Criar um arquivo txt com o nome exercicio01 e cole aqui o conteúdo copiado anterior.
+-	Responda as questões e anexe arquivos quando necessário.
