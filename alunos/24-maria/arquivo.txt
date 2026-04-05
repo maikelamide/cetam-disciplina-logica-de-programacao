@@ -1,0 +1,57 @@
+Exercício Avaliativo Complementar da Parcial 01 – Algoritmo
+Questão 1: Aumento de salário
+Enunciado: Crie um algoritmo que receba o valor de um salário e calcule o novo valor com aumento de 20%.
+a. Identificar:
+ Entrada:salario atual
+ Processamento:calcular salario + 20% 
+ Saída:novo salario
+b. Descrever o passo a passo:
+Passo1: Inicio
+Passo2: ler salario
+Passo3: calcular aumento salario*0,20
+Passo4:mostrar novo salario
+Passo5:fim
+
+c. Desenhar o fluxograma no draw.io (https://www.drawio.com/): tire um print do fluxo para anexar na pasta.
+____________________________________________________________________________
+Questão 2: Média do aluno
+Enunciado: Crie um algoritmo que receba o nome de um aluno e duas notas, exibindo o nome e a média final.
+a. Identificar:
+ Entrada:nome do aluno, nota1, nota2
+ Processamento: calcular nota1 + nota2 /2
+ Saída: exibir nome do aluno e media final
+b. Descrever o passo a passo
+Passo1: Inicio
+Passo2: ler nome do aluno
+Passo3: ler nota1
+Passo4: ler nota2
+Passo5:calcular media nota1 + nota2 /2
+Passo6: Mostrar nome do aluno e media
+Passo7:fim
+
+c. Desenhar o fluxograma no draw.io (https://www.drawio.com/): tire um print do fluxo para anexar na pasta.
+____________________________________________________________________________
+Questão 3: Implementar no Visualg
+Escolha um algoritmo das questões anteriores para desenvolver, você pode copiar o código e colar aqui embaixo.
+Algoritmo "media_aluno"
+
+Var
+nome: caractere
+nota1, nota2, media:real
+
+
+
+Inicio
+escreva("Digite nome do aluno:")
+leia(nome)
+escreva ("Digite a primeira nota:")
+leia(nota1)
+
+escreva("Digite a segunda nota:")
+leia(nota2)
+
+media <-(nota1 + nota2) /2
+escreva("Aluno:", nome)
+escreva("media:", media)
+
+Fimalgoritmo
