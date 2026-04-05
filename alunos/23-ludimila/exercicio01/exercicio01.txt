@@ -1,0 +1,47 @@
+Questão 1: Aumento de salário
+Enunciado: Crie um algoritmo que receba o valor de um salário e calcule o novo valor com aumento de 20%.
+a. Identificar:
+Entrada:salario atual, aumento 20%
+Processamento: aumento = salario_atual * 0,20 ; novo salario = salario atual + aumento
+Saída: valor do novo salario 
+b.Passo a passo: 
+passo 1: inicio
+passo 2: informar salario 
+passo 3: calcular aumento do salario
+passo 4: calcular salario mais aumento
+passo 5: exibir total do novo salario
+passo 6: fim
+
+Questão 2: Média do aluno
+Enunciado: Crie um algoritmo que receba o nome de um aluno e duas notas, exibindo o nome e a média final.
+a. Identificar:
+Entrada: aluno X; N1;N2;
+Processamento: media = (n1+n2)/2
+Saída: média final do aluno X
+b. Passo a passo:
+passo 1: inicio
+passo 2: ler aluno X
+passo 3: exibir nota do aluno X
+passo 4: somar as notas N1 e N2
+passo 5: Calcular a soma total das notas dividido por 2
+passo 6: exibir média final do aluno X
+passo 7: fim
+------------------------------------------------------------------
+Questão 3: Implementar no Visualg
+Algoritmo " Média do aluno"
+
+Var
+ alunoX: caractere
+ N1: real
+ N2: real
+ media: real
+Inicio
+ escreval("digite alunox")
+ leia (alunox)
+ escreval("digite N1")
+ leia(N1)
+ escreval("digite N2")
+ leia (N2)
+ media <- (N1 + N2)/2
+ escreva (" A média do AlunoX é:", media)
+Fimalgoritmo
