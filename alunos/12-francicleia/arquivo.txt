@@ -1,0 +1,50 @@
+Questão 1: Aumento de salário
+Enunciado: Crie um algoritmo que receba o valor de um salário e calcule o novo valor com aumento de 20%.
+a. Identificar:
+ Entrada: salario
+ Processamento: calcular o salario com o aumento de 20%
+ Saída: salario com aumento
+b. Descrever o passo a passo:
+Passo 1: Inicio
+Passo 2: Informar o salario
+Passo 3: Informar o aumento de 20%
+Passo 4: Calcular o salario com o aumento de 20%
+Passo 5: Obter o salario com aumento
+Passo 6: Fim
+c. Desenhar o fluxograma no draw.io (https://www.drawio.com/): tire um print do fluxo para anexar na pasta.
+____________________________________________________________________________
+Questão 2: Média do aluno
+Enunciado: Crie um algoritmo que receba o nome de um aluno e duas notas, exibindo o nome e a média final.
+a. Identificar:
+ Entrada: nome do aluno, nota1, nota2
+ Processamento: calcular nota1 + nota2 e dividir por 2
+ Saída: exibir o nome e a media final
+b. Descrever o passo a passo
+Passo 1: Inicio
+Passo 2: Informar o nome do aluno
+Passo 3: Informar a nota1 
+Passo 4: Informar a nota2
+Passo 5: Somar as nota1 + nota2 e dividir por 2 
+Passo 6: Exibir o nome do aluno e a media final
+Passo 7: Fim
+c. Desenhar o fluxograma no draw.io (https://www.drawio.com/): tire um print do fluxo para anexar na pasta.
+____________________________________________________________________________
+Questão 3: Implementar no Visualg
+Escolha um algoritmo das questões anteriores para desenvolver, você pode copiar o código e colar aqui embaixo.
+Algoritmo "MediaAluno"
+
+Var
+   nome:caractere
+   nota1,nota2,mediafinal: real
+Inicio
+   Escreval("Digite o nome do aluno:")
+   Leia(nome)
+   Escreval("Digite a primeira nota:")
+   Leia(nota1)
+   Escreval("Digite a segunda nota:")
+   Leia(nota2)
+   mediafinal <- (nota1 + nota2)/2
+   Escreval("Aluno:", nome)
+   Escreval("Média Final:", mediafinal)
+
+Fimalgoritmo
