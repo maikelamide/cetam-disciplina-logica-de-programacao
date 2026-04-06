@@ -1,0 +1,21 @@
+
+ QUESTAO 01
+•	Entrada: salário atual.
+•	Processamento: calcular salário com aumento 
+•	Saída: salario_com_aumento_20%
+
+Passo a passo:
+PASSO 01: Ler o valor do salário.
+PASSO 02: Calcular salário com aumento
+PASSO 03: Mostrar salario com aumento de 20%
+
+
+•	Entrada: nome, nota1, nota2.
+•	Processamento: calcular média = (nota1 + nota2) / 2.
+•	Saída: nome do aluno e média.
+
+Passo a passo:
+PASSO 01 : Ler o nome do aluno.
+PASSO 02: Ler nota1,nota2.
+PASSO 03: Calcular média = (nota1 + nota2) / 2.
+PASSO 04: Mostrar nome e média.
