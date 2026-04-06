@@ -1,0 +1,36 @@
+Questão 1
+
+Crie um algoritmo que receba o valor de um salário e calcule o novo valor
+com aumento de 20%.
+
+
+Entrada: salario
+Processamento: (salario x 0,20) + salario
+Saída: Novo_salario
+
+=================
+
+Passo a Passo
+
+Passo1: início
+Passo2: ler valor do salario
+Passo3: Calcular o aumento do Salario
+Passo4: Exibir Novo_salario
+Passo5: Fim
+
+|=================|
+
+início
+
+	leia: salario
+	Novo_salario <- (salario x 0,20) + salario
+	escreva Novo_salario
+fim 
+
+
+
+
+
+
+	
+
