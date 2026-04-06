@@ -1,0 +1,17 @@
+Questão 2: Média do aluno
+
+Enunciado: Crie um algoritmo que receba o nome de um aluno e duas notas, exibindo o
+nome e a média final.
+
+Entada: Nome, n1,n2
+Processamento: (n1 + n2) / 2
+Saída: Nome, media final
+
+passo1: Inicio
+Passo2: Ler nome
+Passo3: ler n1
+Passo4: ler n2
+Passo5: media_final <- (n1 + n2) / 2
+Passo6: escreva nome, media final
+Passo7: FIM
+
