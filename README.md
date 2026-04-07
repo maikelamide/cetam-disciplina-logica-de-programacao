@@ -25,7 +25,7 @@ Cada aluno terá uma pasta própria dentro do repositório.
 ### Exemplo de estrutura
 
 ``` bash
-projeto-turma/
+alunos/
 ├── aluno-ana/
 ├── aluno-bruno/
 ├── aluno-carlos/
@@ -66,7 +66,7 @@ git clone https://github.com/maikelamide/cetam-disciplina-logica-de-programacao.
 Depois, entre na pasta do projeto:
 
 ``` bash
-cd repositorio
+cd cetam-disciplina-logica-de-programacao
 ```
 
 ------------------------------------------------------------------------
