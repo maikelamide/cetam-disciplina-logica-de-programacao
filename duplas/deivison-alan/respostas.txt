@@ -1,0 +1,56 @@
+Algoritmo "Prova Alan,Deivison"
+
+Var
+   notam:real
+   aluno1,aluno2,aluno3:caractere
+   vet : vetor[1..3] de real
+
+Inicio
+   aluno1<-"deveison"
+   aluno2<-"alan"
+   aluno3<-"lucas"
+   notam<-6
+   escreval("entre com a nota do aluno :",aluno1)
+   leia (vet[1])
+   escreval("entre com a nota:")
+   leia(vet[2])
+   escreval("entre com a nota:")
+   leia(vet[3])
+   se (vet[1]>=notam)entao
+      escreval(aluno1," esta aprovado" )
+   senao
+      escreval("entre com a nota de recuperação do aluno :",aluno1)
+      leia (vet[1])
+      se(vet[1]>=notam)entao
+         escreval(aluno1," esta aprovado na recuperação")
+      senao
+         escreval(aluno1," vai para a recuperação final")
+
+      fimse
+
+   fimse
+   se (vet[2]>=notam)entao
+      escreval(aluno2," esta aprovado" )
+   senao
+      escreval("entre com a nota de recuperação do aluno :",aluno2)
+      leia (vet[2])
+      se(vet[2]>=notam)entao
+         escreval(aluno2," esta aprovado na recuperação")
+      senao
+         escreval(aluno2," vai para a recuperação final")
+      fimse
+   fimse
+
+   se (vet[3]>=notam)entao
+      escreval(aluno3," esta aprovado" )
+   senao
+      escreval("entre com a nota de recuperação do aluno :",aluno3)
+      leia (vet[3])
+      se(vet[3]>=notam)entao
+         escreval(aluno3," esta aprovado na recuperação")
+      senao
+         escreval(aluno3," vai para a recuperação final")
+      fimse
+   fimse
+
+Fimalgoritmo
