@@ -1,0 +1,70 @@
+Algoritmo "Avaliacao-Parcial-02-Algoritmo"
+// Disciplina   : [Algoritmo e Lógica de Programação]
+// Professor   : Maike Elamide
+// Descrição   : Prova parcial 02
+// Autor(a)    : Jackson Martins
+// Data atual  : 09/04/2026
+Var
+   notaMinima : real
+   nota, recuperacao : real
+
+Inicio
+   notaMinima <- 6.0
+   // === ALUNO 1 ===
+   escreval(" ===== Aluno 1 ===== ")
+   escreva("Digite a nota do Aluno 1: ")
+   leia(nota)
+
+   se nota >= notaMinima entao
+      escreval("Resultado: APROVADO")
+   senao
+      escreva("Digite a nota da recuperacao paralela: ")
+      leia(recuperacao)
+      se recuperacao >= notaMinima entao
+         escreval("Resultado: APROVADO NA RECUPERACAO")
+      senao
+         escreval("Resultado: RECUPERACAO FINAL")
+      fimse
+   fimse
+
+   escreval("")
+
+   // === ALUNO 2 ===
+   escreval(" ===== Aluno 2 ===== ")
+   escreva("Digite a nota do Aluno 2: ")
+   leia(nota)
+
+   se nota >= notaMinima entao
+      escreval("Resultado: APROVADO")
+   senao
+      escreva("Digite a nota da recuperacao paralela: ")
+      leia(recuperacao)
+      se recuperacao >= notaMinima entao
+         escreval("Resultado: APROVADO NA RECUPERACAO")
+      senao
+         escreval("Resultado: RECUPERACAO FINAL")
+      fimse
+   fimse
+
+   escreval("")
+   
+   // === ALUNO 3 ===
+   escreval(" ===== Aluno 3 ===== ")
+   escreva("Digite a nota do Aluno 3: ")
+   leia(nota)
+
+   se nota >= notaMinima entao
+      escreval("Resultado: APROVADO")
+   senao
+      escreva("Digite a nota da recuperacao paralela: ")
+      leia(recuperacao)
+      se recuperacao >= notaMinima entao
+         escreval("Resultado: APROVADO NA RECUPERACAO")
+      senao
+         escreval("Resultado: RECUPERACAO FINAL")
+      fimse
+   fimse
+
+   escreval("")
+   
+Fimalgoritmo
