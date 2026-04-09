@@ -1,0 +1,54 @@
+Algoritmo "prova 02"
+
+Var
+    nota1,nota2,nota3,nota_recup,nota_recup2,nota_recup3 :real
+Inicio
+       escreval("Digite a nota do primeiro aluno")
+       leia(nota1)
+       
+       se(nota1>=6) entao
+          escreval("Aprovado")
+           fimse
+       se(nota1<6) entao
+          escreval("Não passou diretamente")
+            escreval("Digite a nota da recuperação: ")
+             leia(nota_recup)
+             
+            se (nota_recup>=6) entao
+             escreval("Aprovado na Recuperação")
+              senao
+                 escreval("Recuperação Final")
+         fimse
+        fimse
+       escreval("Digite a nota do segundo aluno")
+          leia(nota2)
+           se(nota2>=6) entao
+            escreval("Aprovado")
+       fimse
+      se(nota2<6) entao
+        escreval("Não passou diretamente")
+          escreval("Digite a nota da recuperação: ")
+           leia(nota_recup2)
+            se (nota_recup2>=6) entao
+              escreval("Aprovado na recuperação")
+               senao
+                 escreval("Recuperação Final")
+         fimse
+        fimse
+        escreval("Digite a nota do terceiro aluno: ")
+         leia(nota3)
+           se(nota3>=6) entao
+            escreval("Aprovado")
+            fimse
+        se(nota3<6) entao
+       escreval("Não passou diretamente")
+         escreval("Digite a nota da recuperação: ")
+          leia(nota_recup3)
+            se (nota_recup3>=6) entao
+             escreval("Aprovado na Recuperação")
+              senao
+                 escreval("Recuperação Final")
+         fimse
+        fimse
+
+Fimalgoritmo
