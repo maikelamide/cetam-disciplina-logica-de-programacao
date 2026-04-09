@@ -1,0 +1,55 @@
+Algoritmo "APROVADO_RECUPEÇÃO""
+
+Var
+  nota1, nota2, nota3, rec: real
+  mediaMinima: real
+
+Inicio
+  mediaMinima <- 6
+
+  Escreva("Digite a nota do aluno 1: ")
+  Leia(nota1)
+
+  Se (nota1 >= mediaMinima) então
+    Escreva("Aluno 1: Aprovado")
+  Senão
+    Escreva("Digite a nota da recuperação do aluno 1: ")
+    Leia(rec)
+    Se (rec >= mediaMinima) então
+      Escreva("Aluno 1: Aprovado na recuperação")
+    Senão
+      Escreva("Aluno 1: Recuperação final")
+    FimSe
+  FimSe
+  
+  Escreva("Digite a nota do aluno 2: ")
+  Leia(nota2)
+
+  Se (nota2 >= mediaMinima) então
+    Escreva("Aluno 2: Aprovado")
+  Senão
+    Escreva("Digite a nota da recuperação do aluno 2: ")
+    Leia(rec)
+    Se (rec >= mediaMinima) então
+      Escreva("Aluno 2: Aprovado na recuperação")
+    Senão
+      Escreva("Aluno 2: Recuperação final")
+    FimSe
+  FimSe
+
+  Escreva("Digite a nota do aluno 3: ")
+  Leia(nota3)
+
+  Se (nota3 >= mediaMinima) então
+    Escreva("Aluno 3: Aprovado")
+  Senão
+    Escreva("Digite a nota da recuperação do aluno 3: ")
+    Leia(rec)
+    Se (rec >= mediaMinima) então
+      Escreva("Aluno 3: Aprovado na recuperação")
+    Senão
+      Escreva("Aluno 3: Recuperação final")
+    FimSe
+  FimSe
+Fimalgoritmo 
+  
