@@ -1,0 +1,62 @@
+Algoritmo "NotadosAlunos"
+
+Var
+   notaMinima:real
+   nota:real
+   recuperacao:real
+Inicio
+   notaMinima <- 6
+   //====ALUNO 1====
+   escreval("====ALUNO 1====")
+   escreva("Digite a nota do Aluno 1: ")
+   leia(nota)
+
+   se nota >= notaMinima entao
+      escreval("Aluno Aprovado")
+   senao
+      escreva("Digite a nota de recuperação")
+      leia(recuperacao)
+      se recuperacao >= notaMinima entao
+      escreval("Aprovado na Recuperação")
+   senao
+      escreval ("Resultado: Recuperação Final")
+   fimse
+fimse
+
+
+   //====ALUNO 2====
+   escreval("====ALUNO 2====")
+   escreva("Digite a nota do Aluno 2: ")
+   leia(nota)
+
+   se nota >= notaMinima entao
+      escreval("Aluno Aprovado")
+   senao
+      escreva("Digite a nota de recuperação")
+      leia(recuperacao)
+      se recuperacao >= notaMinima entao
+      escreval("Aprovado na Recuperação")
+   senao
+      escreval ("Resultado: Recuperação Final")
+   fimse
+fimse
+
+
+   //====ALUNO 3====
+   escreval("====ALUNO 3====")
+   escreva("Digite a nota do Aluno 3: ")
+   leia(nota)
+
+   se nota >= notaMinima entao
+      escreval("Aluno Aprovado")
+   senao
+      escreva("Digite a nota de recuperação")
+      leia(recuperacao)
+      se recuperacao >= notaMinima entao
+      escreval("Aprovado na Recuperação")
+   senao
+      escreval ("Resultado: Recuperação Final")
+   fimse
+fimse
+
+Fimalgoritmo
