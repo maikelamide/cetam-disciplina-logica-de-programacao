@@ -1,0 +1,59 @@
+Algoritmo " notas alunos"
+
+Var
+ aluno1,aluno2, aluno3, notaMin, notaPar1,notaPar2,notaPar3: Real
+
+
+Inicio
+notaMin <- 6,0
+
+   escreval("Informe a nota do Aluno 1: ")
+   leia(aluno1)
+   escreval("Informe a nota do Aluno 2: ")
+   leia(aluno2)
+   escreval("Informe a nota do Aluno 3: ")
+   leia(aluno3)
+   limpatela
+   se (aluno1 >= notaMin) entao
+      escreval("Aluno 1 aprovado!")
+   fimse
+       se (aluno2 >= notaMin) entao
+          escreval("Aluno 2 aprovado!")
+       fimse
+          se (aluno3 >= notaMin) entao
+             escreval("Aluno 3 aprovado!")
+          fimse
+          
+             se (aluno1 < notaMin) entao
+                escreval("Informe uma nota de recuperação do Aluno 1!")
+                escreval("Digite a nota de recuperação: ")
+                leia(notaPar1)
+                              se (notaPar1 >= notaMin) entao
+                                 escreval("Aprovado na recuperação")
+                              senao
+                              escreval("Recuperação final")
+                              fimse
+             fimse
+             se (aluno2 < notaMin) entao
+                escreval("Informe uma nota de recuperação do Aluno 2!")
+                escreval("Digite a nota de recuperação: ")
+                leia(notaPar2)
+                              se (notaPar2 >= notaMin) entao
+                                 escreval("Aprovado na recuperação")
+                              senao
+                              escreval("Recuperação final")
+                              fimse
+             fimse
+             se (aluno3 < notaMin) entao
+                escreval("Informe uma nota de recuperação do Aluno 3!")
+                escreval("Digite a nota de recuperação: ")
+                leia(notaPar3)
+                              se (notaPar3 >= notaMin) entao
+                                 escreval("Aprovado na recuperação")
+                              senao
+                              escreval("Recuperação final")
+                              fimse
+             fimse
+
+Fimalgoritmo
+fimse
