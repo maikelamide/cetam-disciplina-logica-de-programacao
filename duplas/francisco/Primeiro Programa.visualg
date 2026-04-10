@@ -1,0 +1,100 @@
+algoritmo "verificador de notas"
+
+var
+ nota: real
+ aluno1: real
+ aluno2: real
+ aluno3: real
+
+ status1:caractere
+ status2:caractere
+ status3:caractere
+
+inicio
+ nota <- 6
+  //aluno 1//
+   escreval("digite a nota do aluno 1:")
+   leia(aluno1)
+
+   se (aluno1 < nota) entao 
+     escreval("alunou 1 nao passou diretamente")
+     escreval("digite a nota da recuperaçao parelala:")
+     leia(aluno1)
+       se (aluno1 < nota) entao
+         escreval("alunou 1 nao passou na recuperaçao paralela")
+         escreval("digite a nota da recuperaçao final:")
+         leia(aluno1)
+          se (aluno1 < nota) entao
+           status1 <- "reprovado na recuperaçao final"
+          senao
+           status1 <- "aprovado na recuperaçao final"
+          fimse
+        senao
+        status1 <-"aprovado na recuperçao parelala"
+        fimse
+   senao
+     status1 <- "aprovado"
+   fimse
+   //fim aluno 1//
+
+   //aluno 2//
+
+   escreval("digite a nota do aluno 2:")
+   leia(aluno2)
+
+  se (aluno2 < nota) entao 
+     escreval("alunou 2 nao passou diretamente")
+     escreval("digite a nota da recuperaçao parelala:")
+     leia(aluno2)
+       se (aluno2 < nota) entao
+         escreval("alunou 2 nao passou na recuperaçao paralela")
+         escreval("digite a nota da recuperaçao final:")
+         leia(aluno2)
+          se (aluno2 < nota) entao
+           status2 <- "reprovado na recuperaçao final"
+          senao
+           status2 <- "aprovado na recuperaçao final"
+          fimse
+        senao
+        status2 <-"aprovado na recuperçao parelala"
+        fimse
+   senao
+     status2 <- "aprovado"
+   fimse
+
+    //fim aluno 2//
+
+   //aluno 3//
+
+   escreval("digite a nota do aluno 3:")
+   leia(aluno3)
+
+  se (aluno3 < nota) entao 
+     escreval("alunou 3 nao passou diretamente")
+     escreval("digite a nota da recuperaçao parelala:")
+     leia(aluno3)
+       se (aluno3 < nota) entao
+         escreval("alunou 3 nao passou na recuperaçao paralela")
+         escreval("digite a nota da recuperaçao final:")
+         leia(aluno3)
+          se (aluno3 < nota) entao
+           status3 <- "reprovado na recuperaçao final"
+          senao
+           status3 <- "aprovado na recuperaçao final"
+          fimse
+        senao
+        status3 <-"aprovado na recuperçao parelala"
+        fimse
+   senao
+     status3 <- "aprovado"
+   fimse
+   
+   //fim aluno 3//
+
+   escreval("resultado")
+   escreval("aluno 1:",status1)
+   escreval("aluno2:",status2)
+   escreval("aluno3:",status3)
+
+            
+fimalgoritmo
