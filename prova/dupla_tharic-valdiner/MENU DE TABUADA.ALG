@@ -19,6 +19,16 @@ inicio
    escreval("3.multiplicacao")
    escreval("4.divisao")
    escreval("============================================")
+
+   escreval("escolha uma opção.")
+   leia(opcao)
+
+   se (opcao<1) ou (opcao>4) entao
+      escreval ("opcao nao existe")
+      escreval ("digite outra opção")
+      leia(opcao)
+   fimse
+
 fimprocedimento
 
 //inicio da funcao adicao
@@ -61,22 +71,7 @@ inicio
 fimfuncao
 
 procedimento resposta
-escreval("escolha uma opção.")
-leia(opcao)
-fimprocedimento
-Inicio
-
-   menu
-
-   escreval("escolha uma opção.")
-   leia(opcao)
-
-   se (opcao<1) ou (opcao>4) entao
-      escreval ("opcao nao existe")
-      escreval ("digite outra opção")
-      leia(opcao)
-   fimse
-
+inicio
    escreval("digite um numero")
    leia(n)
    se (opcao=1) entao
@@ -94,12 +89,20 @@ Inicio
    se (opcao=4) entao
       escreval(divisao(n))
    fimse
+fimprocedimento
+Inicio
+
+   menu
+
+   resposta
 
    escreval ("deseja continuar?S/N")
    leia(cont)
 
+   cont<-s
+
    enquanto (cont=s)  faca
-      escreva  ("")
-
-
+         menu
+         resposta
+      fimenquanto
 Fimalgoritmo
