@@ -1,0 +1,134 @@
+Disciplina: Lógica de Programação e Algoritmos 
+Curso Técnico em Inteligência Artificial
+Data: 22/04/2026 
+Alunos(as): Jackson Martins - Siglia Ferreira
+
+Avaliação Parcial 03 – Algoritmo Tabuada
+
+algoritmo "Tabuada Avaliacao-03"
+var
+   opcao    : inteiro
+   numero   : inteiro
+   continuar: caractere
+   i        : inteiro
+   resultado: real
+
+   // PROCEDIMENTO: Exibe o menu de opções
+procedimento exibirMenu()
+inicio
+   escreval("========================================")
+   escreval("       SISTEMA DE TABUADA INTERATIVA    ")
+   escreval("========================================")
+   escreval("  1 - Tabuada da ADICAO                ")
+   escreval("  2 - Tabuada da SUBTRACAO             ")
+   escreval("  3 - Tabuada da MULTIPLICACAO         ")
+   escreval("  4 - Tabuada da DIVISAO               ")
+   escreval("========================================")
+   escreva("  Escolha uma opcao (1 a 4): ")
+fimprocedimento
+
+// PROCEDIMENTO: Solicita o número ao usuário
+procedimento solicitarNumero(var n: inteiro)
+inicio
+   escreval("")
+   escreva("Digite um numero inteiro: ")
+   leia(n)
+   escreval("")
+fimprocedimento
+
+// FUNÇÃO: Adição
+funcao calcularAdicao(n, i: inteiro): real
+inicio
+   retorne(n + i)
+
+fimfuncao
+
+// FUNÇÃO: Subtração
+funcao calcularSubtracao(n, i: inteiro): real
+inicio
+   retorne(n - i)
+fimfuncao
+
+// FUNÇÃO: Multiplicação
+funcao calcularMultiplicacao(n, i: inteiro): real
+inicio
+   retorne(n * i)
+fimfuncao
+
+// FUNÇÃO: Divisão
+funcao calcularDivisao(n, i: inteiro): real
+inicio
+   retorne(n / i)
+fimfuncao
+
+// INÍCIO DO PROGRAMA PRINCIPAL
+inicio
+   continuar <- "S"
+
+   enquanto (continuar = "S") ou (continuar = "s") faca
+
+      // Exibe o menu
+      exibirMenu()
+      leia(opcao)
+
+      // Valida a opção (somente 1 a 4)
+      enquanto (opcao < 1) ou (opcao > 4) faca
+         escreval("")
+         escreval("  [ERRO] Opcao invalida! Digite apenas 1, 2, 3 ou 4.")
+         escreval("")
+         exibirMenu()
+         leia(opcao)
+      fimenquanto
+
+      // Solicita o número via procedimento
+      solicitarNumero(numero)
+
+      // Escolha da operação e exibição da tabuada
+      se opcao = 1 entao
+         escreval("--- TABUADA DA ADICAO ---")
+         para i de 1 ate 10 faca
+            resultado <- calcularAdicao(numero, i)
+            escreval(numero, " + ", i, " = ", resultado:0:0)
+
+         fimpara
+
+      senao
+         se opcao = 2 entao
+            escreval("--- TABUADA DA SUBTRACAO ---")
+            para i de 1 ate 10 faca
+               resultado <- calcularSubtracao(numero, i)
+               escreval(numero, " - ", i, " = ", resultado:0:0)
+            fimpara
+
+         senao
+            se opcao = 3 entao
+               escreval("--- TABUADA DA MULTIPLICACAO ---")
+               para i de 1 ate 10 faca
+                  resultado <- calcularMultiplicacao(numero, i)
+                  escreval(numero, " x ", i, " = ", resultado:0:0)
+               fimpara
+
+            senao
+               se opcao = 4 entao
+                  escreval("--- TABUADA DA DIVISAO ---")
+                  para i de 1 ate 10 faca
+                     resultado <- calcularDivisao(numero, i)
+                     escreval(numero, " / ", i, " = ", resultado:2)
+                  fimpara
+
+               fimse
+            fimse
+         fimse
+      fimse
+
+      // Pergunta se deseja continuar
+      escreval("")
+      escreval("========================================")
+      escreva("Deseja continuar? (S/N): ")
+      leia(continuar)
+      escreval("========================================")
+      escreval("")
+
+   fimenquanto
+   
+fimalgoritmo
