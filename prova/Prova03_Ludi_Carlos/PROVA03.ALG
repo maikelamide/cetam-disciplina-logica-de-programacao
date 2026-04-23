@@ -1,89 +1,80 @@
-Algoritmo "Prova03"
-
-
+Algoritmo "prova03"
 Var
-contador,numero:inteiro
-valor: inteiro
-resultado: real
-teste,continuar:caractere
-opcao:inteiro
+   contador, numero: inteiro
+   resultado: real
+   teste, continuar: caractere
+   opcao: inteiro
 
 procedimento menu()
-
 inicio
-escreval("==========================Tabuada=================================")
-escreval("1.adicao")
-escreval("2.subtracao")
-escreval("3.multiplicacao")
-escreval("4.divisao")
-escreval("================================Digite a opção,desejada?")
+   escreval("==================== TABUADA ====================")
+   escreval("1 - Adiï¿½ï¿½o")
+   escreval("2 - Subtraï¿½ï¿½o")
+   escreval("3 - Multiplicaï¿½ï¿½o")
+   escreval("4 - Divisï¿½o")
+   escreval("Digite a opï¿½ï¿½o desejada: ")
 fimprocedimento
 
 procedimento solicitarNumero()
-
 inicio
-escreval("Digite um numero")
-leia(numero)
-
+   escreval("Digite um numero: ")
+   leia(numero)
 fimprocedimento
 
 funcao soma(a,b:inteiro):inteiro
 inicio
-retorne a+b
+   retorne a + b
 fimfuncao
 
 funcao subtracao(a,b:inteiro):inteiro
 inicio
-retorne a-b
+   retorne a - b
 fimfuncao
 
 funcao multiplicacao(a,b:inteiro):inteiro
 inicio
-retorne a*b
+   retorne a * b
 fimfuncao
 
 funcao divisao(a,b:inteiro):real
 inicio
-retorne a/b
+   retorne a / b
 fimfuncao
 
 inicio
-teste <- "s"
-enquanto (teste="s") e (teste="s") faca
-limpatela
-menu()
-leia(opcao)
-se(opcao>=1)e(opcao<4)entao
-solicitarNumero()
+   teste <- "s"
 
+   enquanto (teste = "s") faca
+      limpatela
+      menu()
+      leia(opcao)
 
-para contador de 1 ate 10 faca
-se opcao =1 entao
-escreval (numero, "+", contador, "=", soma(numero,contador))
-fimse
+      se (opcao >= 1) e (opcao <= 4) entao
+         solicitarNumero()
 
+         para contador de 1 ate 10 faca
+            se opcao = 1 entao
+               escreval(numero, " + ", contador, " = ", soma(numero, contador))
+            senao
+               se opcao = 2 entao
+                  escreval(numero, " - ", contador, " = ", subtracao(numero, contador))
+               senao
+                  se opcao = 3 entao
+                     escreval(numero, " * ", contador, " = ", multiplicacao(numero, contador))
+                  senao
+                     escreval(numero, " / ", contador, " = ", divisao(numero, contador))
+                  fimse
+               fimse
+            fimse
+         fimpara
 
-para contador de 1 ate 10 faca
-se opcao =1 entao
-escreval (numero, "-", contador, "=", subtracao(numero,contador))
-fimse
+      senao
+         escreval("Opï¿½ï¿½o invï¿½lida!")
+      fimse
 
+      escreval("Deseja continuar? (s/n)")
+      leia(teste)
 
-para contador de 1 ate 10 faca
-se opcao =1 entao
-escreval (numero, "*", contador, "=", multiplicacao(numero,contador))
-fimse
-
-para contador de 1 ate 10 faca
-se opcao =1 entao
-escreval (numero, "/", contador, "=", divisao(numero,contador))
-fimse
-fimpara
-
- senao
- escreva("invalida")
- escreva("continuar")
- leia(continuar)
- fimenquanto
+   fimenquanto
 
 Fimalgoritmo
