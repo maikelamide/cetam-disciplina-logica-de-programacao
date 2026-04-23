@@ -40,7 +40,9 @@ var
 
 inicio
 
-repita
+resp <- "S"
+
+enquanto (resp = "S") ou (resp = "s") faca
 
    menu()
    leia(opcao)
@@ -76,6 +78,6 @@ repita
    escreval("Continuar? (S/N): ")
    leia(resp)
 
-ate (resp = "N") ou (resp = "n")
+fimenquanto
 
 fimalgoritmo
