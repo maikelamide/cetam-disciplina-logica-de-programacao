@@ -1,0 +1,112 @@
+Algoritmo "prova 3 tabuada"
+
+Var
+   continuar:caractere
+   numero, opcao, i:inteiro
+
+procedimento menu()
+inicio
+   escreval("============================================")
+   escreval("=================== TABUADA ================")
+   escreval("============================================")
+   escreval("1.ADIÇÃO")
+   escreval("2.SUBTRAÇÃO")
+   escreval("3.MULTIPLICAÇÃO")
+   escreval("4.DIVISÃO")
+   escreval("============================================")
+
+   escreval("")
+
+   escreval("Digite a opção desejada? ")
+
+fimprocedimento
+
+procedimento valor(var n:inteiro)
+inicio
+   escreval("Digite um número: ")
+   leia(n)
+   limpatela
+fimprocedimento
+
+funcao adicao(n:inteiro; i:inteiro):inteiro
+inicio
+   retorne n+i
+fimfuncao
+
+funcao subtracao(n:inteiro; i:inteiro):inteiro
+inicio
+   retorne n-i
+fimfuncao
+
+funcao multiplicacao(n:inteiro; i:inteiro):inteiro
+inicio
+   retorne n*i
+fimfuncao
+
+funcao divisao(n:inteiro; i:inteiro):real
+inicio
+   retorne n/i
+fimfuncao
+
+Inicio
+   continuar<-"S"
+
+   enquanto (continuar="S") ou (continuar="s") faca
+      menu()
+      leia(opcao)
+
+      enquanto (opcao<1) ou (opcao>4) faca
+         escreval("ERRO! Digite apenas números de 1 ate 4. ")
+         escreval("Digite a opção desejada? ")
+         leia(opcao)
+      fimenquanto
+      limpatela
+      valor(numero)
+
+      escreval("")
+
+      se opcao=1 entao
+         escreval("===============ADIÇÃO============")
+         para i de 1 ate 10 faca
+            escreval(numero, " + ", i, " = ",adicao(numero, i))
+         fimpara
+
+      senao
+
+         se opcao=2 entao
+            escreval("===============SUBTRAÇÃO============")
+            para i de 1 ate 10 faca
+               escreval(numero, " - ", i, " = ",subtracao(numero, i))
+            fimpara
+
+         senao
+
+            se opcao=3 entao
+               escreval("===============MULTIPLICAÇÃO============")
+               para i de 1 ate 10 faca
+                  escreval(numero, " * ", i, " = ",multiplicacao(numero, i))
+               fimpara
+
+            senao
+
+               se opcao=4 entao
+                  escreval("===============DIVISAO=============")
+                  para i de 1 ate 10 faca
+                     escreval(numero, " / ", i, " = ",divisao(numero, i))
+                  fimpara
+
+               fimse
+            fimse
+         fimse
+      fimse
+
+
+      escreval("Deseja continuar? S/N")
+      leia(continuar)
+      limpatela
+      escreval("")
+
+   fimenquanto
+
+   escreval("Programa encerrado! ")
+Fimalgoritmo
