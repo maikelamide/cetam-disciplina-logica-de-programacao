@@ -1,11 +1,12 @@
 Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação] 
+// Professor   : Antonio Carlos Nicolodi 
 Var
    opcao01:caracter
    opcao,i:inteiro
-   adicao,subtracao,multiplicacao,divisao,resultado:real
+   nmr,resultado:real
 
-procedimento TABUADA(opcao:inteiro)
-
+procedimento TABUADA()
 inicio
 
    escreval("==========================")
@@ -16,6 +17,7 @@ inicio
    escreval("3.Multiplicação")
    escreval("4.Divisão")
    escreval("==========================")
+
    escreval("Digite a opção, desejada?")
    leia(opcao)
 
@@ -24,81 +26,86 @@ inicio
       leia(opcao)
    fimenquanto
 
-
 fimprocedimento
 
 
+funcao adicao (valor1, valor2:real):real
+inicio
+   retorne valor1 + valor2
+fimfuncao
+
+funcao subtracao (valor1, valor2:real):real
+inicio
+   retorne valor1 - valor2
+fimfuncao
+
+funcao multiplicacao (valor1, valor2:real):real
+inicio
+   retorne valor1 * valor2
+fimfuncao
+
+funcao divisao (valor1, valor2:real):real
+inicio
+   retorne valor1 / valor2
+fimfuncao
+
+
 Inicio
+   opcao01 <- "S"
 
-   Tabuada(opcao)
+   Tabuada()
 
+   enquanto (opcao01 = "S") ou (opcao01 = "s") faca
+      se opcao = 1 entao
+         escreval("Digite um número: ")
+         leia(nmr)
 
-   se opcao = 1 entao
-      escreval("Digite um número: ")
-      leia(adicao)
-   fimse
-
-   para i de 1 ate 10 faca
-      resultado <- adicao + i
-      escreval(adicao, " + ",i, " = ", resultado)
-   fimpara
-
-
-
-
+         para i de 1 ate 10 faca
+            resultado <- adicao(nmr,i)
+            escreval(nmr, " + ",i, " = ", resultado)
+         fimpara
+      fimse
+      
 
 
-   enquanto(opcao01 = "S") ou (opcao01 = "s")faca
-      escreval ("Digite a opção, desejada?")
-      leia(opcao)
-   senao
+      se opcao = 2 entao
+         escreval("Digite um número: ")
+         leia(nmr)
+
+         para i de 1 ate 10 faca
+            resultado <- subtracao(nmr,i)
+            escreval(nmr, " - ",i, " = ", resultado)
+         fimpara
+      fimse
+
+      se opcao = 3 entao
+         escreval("Digite um número: ")
+         leia(nmr)
+
+         para i de 1 ate 10 faca
+            resultado <- multiplicacao(nmr,i)
+            escreval(nmr, " X ",i, " = ", resultado)
+         fimpara
+      fimse
+      
+
+
+      se opcao = 4 entao
+         escreval("Digite um número: ")
+         leia(nmr)
+
+         para i de 1 ate 10 faca
+            resultado <- divisao(nmr,i)
+            escreval(nmr, " / ",i, " = ", resultado)
+         fimpara
+      fimse
+
+      escreval("Deseja continuar?S/N")
+      leia(opcao01)
       escreval("Programa encerrado!")
+      Tabuada()
    fimenquanto
 
-
-
-
-
-
-
-
-   escreval("==========================")
-
-
-
-   se opcao = 2 entao
-      escreval("Digite um número: ")
-      leia(subtracao)
-   fimse
-
-   para i de 1 ate 10 faca
-      resultado <- subtracao - i
-      escreval(subtracao, " - ",i, " = ", resultado)
-   fimpara
-
-   escreval("==========================")
-
-   se opcao = 3 entao
-      escreval("Digite um número: ")
-      leia(multiplicacao)
-   fimse
-
-   para i de 1 ate 10 faca
-      resultado <- multiplicacao*i
-      escreval(multiplicacao, " X ",i, " = ", resultado)
-   fimpara
-
-   escreval("==========================")
-
-   se opcao = 4 entao
-      escreval("Digite um número: ")
-      leia(divisao)
-   fimse
-
-   para i de 1 ate 10 faca
-      resultado <- divisao/i
-      escreval(divisao, " / ",i, " = ", resultado)
-   fimpara
 
 
 Fimalgoritmo
